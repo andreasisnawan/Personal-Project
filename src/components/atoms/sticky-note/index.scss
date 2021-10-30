@@ -1,0 +1,103 @@
+.a-sticky-note {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Architects Daughter";
+  font-weight: bold;
+  padding: 30px 10px 10px 10px;
+  box-shadow: 0px 5px 5px gray;
+  transition: all 1s;
+  word-break: break-all;
+  &__unpin {
+    background: radial-gradient(circle, rgb(252, 204, 212), rgb(51, 14, 14));
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: black;
+    border: none;
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    top: 5px;
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.2);
+      box-shadow: 5px 5px 8px rgb(44, 44, 44);
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    box-shadow: 5px 15px 15px gray;
+    transform: rotate(0deg);
+  }
+  &--purple {
+    background: rgb(97, 21, 107);
+    transform: rotate(10deg);
+  }
+  &--red {
+    background: rgb(88, 45, 45);
+    transform: rotate(-7deg);
+  }
+  &--orange {
+    background: rgb(248, 165, 40);
+    transform: rotate(10deg);
+  }
+  &--blue {
+    background: rgb(71, 72, 128);
+    transform: rotate(-17deg);
+  }
+  &--gray {
+    background: rgb(97, 102, 97);
+    transform: rotate(-5deg);
+  }
+  &--black {
+    background: rgb(36, 39, 36);
+    transform: rotate(12deg);
+  }
+  &--yellow {
+    background: rgb(192, 169, 67);
+    transform: rotate(-7deg);
+  }
+  &--green {
+    background: rgb(77, 117, 77);
+    transform: rotate(7deg);
+  }
+  &:nth-of-type(1) {
+    top: 80px;
+    left: 5%;
+  }
+  &:nth-of-type(2) {
+    top: 80px;
+    left: 30%;
+  }
+  &:nth-of-type(3) {
+    top: 80px;
+    left: 55%;
+  }
+  &:nth-of-type(4) {
+    top: 80px;
+    left: 80%;
+  }
+  &:nth-of-type(5) {
+    top: 460px;
+    left: 5%;
+  }
+  &:nth-of-type(6) {
+    top: 460px;
+    left: 30%;
+  }
+  &:nth-of-type(7) {
+    top: 460px;
+    left: 55%;
+  }
+  &:nth-of-type(8) {
+    top: 460px;
+    left: 80%;
+  }
+}

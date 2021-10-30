@@ -1,0 +1,29 @@
+.m-todo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > .a-input {
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  > .a-button {
+    margin-top: 30px;
+  }
+
+  &__quotes {
+    position: fixed;
+    top: 0;
+    font-family: "caveat";
+  }
+  &__quotes-text {
+    font-size: 30px;
+  }
+  &__author {
+    text-align: right;
+    font-family: "shadows into light";
+    letter-spacing: 8px;
+    font-weight: bold;
+  }
+}

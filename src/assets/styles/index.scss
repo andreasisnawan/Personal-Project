@@ -1,0 +1,16 @@
+@import "../../pages/**/*.scss";
+@import "../../components/**/**/*.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  // font-family: "shadows into light";
+  // background: radial-gradient(white 40%, #ffdee4);
+  input {
+    padding: 0.7em;
+    margin: 1em;
+  }
+}
